@@ -33,10 +33,10 @@ Các **chức năng của demo Note App** đã thực hiện hoặc dự kiến 
 * [X] Sử dụng List View để hiển thị danh sách notes
 * [X] Sử dụng Redux và React-React để xây dựng ứng dụng
 
-Các nguồn tham khảo để xây dựng ứng dụng
-Note App : https://github.com/shoumma/Asprov-Notes
-React Native NavigationExperimental : https://medium.com/react-native-training/react-native-navigator-experimental-part-2-implementing-redux-c6acbf66eca1
-React-Native-Navigation-Bar: https://www.npmjs.com/package/react-native-navigation-bar
+Các nguồn tham khảo để xây dựng ứng dụng:
+* Note App : https://github.com/shoumma/Asprov-Notes
+* React Native NavigationExperimental : https://medium.com/react-native-training/react-native-navigator-experimental-part-2-implementing-redux-c6acbf66eca1
+* React-Native-Navigation-Bar: https://www.npmjs.com/package/react-native-navigation-bar
 
 ## Demo
 
