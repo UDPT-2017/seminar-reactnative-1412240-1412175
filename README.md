@@ -1,10 +1,10 @@
-# Seminar-UDPT - *Tên đề tài*
+# Seminar-UDPT - *React Native*
 
 **Tên đề tài** là một repository trong đề tài tìm hiểu của lớp Ứng dụng phân tán.
 
 Thành viên:
-* [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [X] **1412175** Trần Hiệp (tranhiepqna)
+* [X] **1412240** Bùi Đình Khánh (khanhbui1412240)
 
 URL: **Link github page**
 
@@ -13,23 +13,30 @@ URL: **Link github page**
 Sinh viên check vào các mục bên dưới và ghi mã sinh viên đã làm vào chức năng theo mẫu. Mục nào ko có MSSV là tính điểm theo nhóm. Cần sắp xếp các chức năng bên dưới theo thứ tự MSSV đã thực hiện.
 
 Yêu cầu **GIT**
-* [ ] Có sử dụng GIT.
-* [ ] Sử dụng GIT theo Centralized Workflow.
-* [ ] Sử dụng GIT theo Feature Branch Workflow.
+* [X] Có sử dụng GIT.
+* [X] Sử dụng GIT theo Centralized Workflow.
+* [X] Sử dụng GIT theo Feature Branch Workflow.
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **bắt buộc**
-* [ ] Source code demo
-* [ ] Slide thuyết trình
-* [ ] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
+* [X] Source code demo
+* [X] Slide thuyết trình
+* [X] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
 
 Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các nội dung đã làm được vào bên dưới và check vào các nội dung đã tìm hiểu được.
 * [ ] Nội dung 1
 * [ ] Nội dung 2
 
-Các **chức năng của demo** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
-* [ ] Chức năng 1
-* [ ] Chức năng 2
+Các **chức năng của demo Note App** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
+* [X] Xây dựng nhiều màn hình
+* [X] Tương tác giữa các màn hình thông qua Navigation
+* [X] Sử dụng List View để hiển thị danh sách notes
+* [X] Sử dụng Redux và React-React để xây dựng ứng dụng
+
+Các nguồn tham khảo để xây dựng ứng dụng
+Note App : https://github.com/shoumma/Asprov-Notes
+React Native NavigationExperimental : https://medium.com/react-native-training/react-native-navigator-experimental-part-2-implementing-redux-c6acbf66eca1
+React-Native-Navigation-Bar: https://www.npmjs.com/package/react-native-navigation-bar
 
 ## Demo
 
