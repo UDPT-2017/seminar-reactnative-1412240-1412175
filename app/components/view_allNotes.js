@@ -47,8 +47,9 @@ class AllNotes extends Component {
         height={44}
         titleColor={'#000'}
         backgroundColor={'#ffd699'}
-        rightButtonTitle={'Create Note'}
-        rightButtonTitleColor={'#000'}
+        rightButtonIcon={require('../images/create-note.png')}
+        //rightButtonTitle={'Create Note'}
+      
         onRightButtonPress={this.addNewNote.bind(this)}
         />
         <View style={styles.listViewNotes}>

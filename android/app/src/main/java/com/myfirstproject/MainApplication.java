@@ -1,7 +1,6 @@
 package com.myfirstproject;
 
 import android.app.Application;
-import com.oblador.vectoricons.VectorIconsPackage;
 
 import com.facebook.react.ReactApplication;
 import com.oblador.vectoricons.VectorIconsPackage;
@@ -26,7 +25,6 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
             new VectorIconsPackage()
-		  , new VectorIconsPackage()
       );
     }
   };

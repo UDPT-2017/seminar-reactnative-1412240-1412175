@@ -5,7 +5,8 @@ import {
   TextInput,
   Alert,
   BackAndroid,
-  StatusBar
+  StatusBar,
+  Image
 } from 'react-native'
 import { connect } from 'react-redux'
 
@@ -15,7 +16,7 @@ import { updateNote } from '../actions/Action'
 import { deleteNote } from '../actions/Action'
 import NavigationBar from 'react-native-navigation-bar'
 import BottomNavigation, { Tab } from 'react-native-material-bottom-navigation'
-import Icon from 'react-native-vector-icons/MaterialIcons'
+
 
 class SingleNote extends Component {
   constructor(props) {
@@ -56,13 +57,13 @@ class SingleNote extends Component {
         height={44}
         titleColor={'#000'}
         backgroundColor={'#ffd699'}
+        leftButtonIcon={require('../images/back.png')}
 
-        leftButtonTitle={'Back'}
-        leftButtonTitleColor={'#000'}
+
         onLeftButtonPress={this.goBack.bind(this)}
+        rightButtonIcon={require('../images/save.png')}
 
-        rightButtonTitle={'Save'}
-        rightButtonTitleColor={'#000'}
+    
         onRightButtonPress={this.updateNote.bind(this)}
       />
         <View style={styles.textInputContainer}>
@@ -90,28 +91,28 @@ class SingleNote extends Component {
           />
         </View>
         <BottomNavigation
-         labelColor="white"
-         rippleColor="white"
-         style={{ height: 56, elevation: 8, position: 'absolute', left: 0, bottom: 0, right: 0 }}
-         onTabChange={this.deleteNote.bind(this)}
-         >
-         <Tab
-           barBackgroundColor="#37474F"
-           label="Delete"
-         />
-         <Tab
-           barBackgroundColor="#00796B"
-           label="Image"
-         />
-         <Tab
-           barBackgroundColor="#5D4037"
-           label="Audio"
-         />
-         <Tab
-           barBackgroundColor="#3E2723"
-           label="HandWritting"
-         />
-       </BottomNavigation>
+          labelColor="#000"
+          rippleColor="#000"
+          style={{ height: 56, elevation: 8, position: 'absolute', left: 0, bottom: 0, right: 0 }}
+          onTabChange={(newTabIndex)=>this.onButtonTagChange(newTabIndex)}
+        >
+          <Tab
+            barBackgroundColor="#ffebcc"
+            label="Delete"
+			icon={<Image style={{width: 20, height:20}} source={require('../images/delete.png')}/>}
+          />
+          <Tab
+            barBackgroundColor="#ffebcc"
+            label="Camera"
+			icon={<Image style={{width: 20, height:20}} source={require('../images/camera.png')}/>}
+            />
+          <Tab
+            barBackgroundColor="#ffebcc"
+            label="Setting"
+			icon={<Image style={{width: 20, height:20}} source={require('../images/settings.png')}/>}
+            />
+    
+    </BottomNavigation>
       </View>
     )
   }
@@ -131,12 +132,18 @@ class SingleNote extends Component {
 
     this.goBack()
   }
+  onButtonTagChange(newTabIndex){
+	  
+	  if(newTabIndex===0){
+		  console.log(newTabIndex)
+		  this.deleteNote()
+	  }
+  }
   deleteNote() {
-      this.props.deleteNote(
-        this.state.id)
-
+	  console.log(this.state.id);
+      this.props.deleteNote(this.state.id)
     this.goBack()
   }
 }
 
-export default connect(null, { updateNote })(SingleNote)
+export default connect(null, { updateNote, deleteNote })(SingleNote)
