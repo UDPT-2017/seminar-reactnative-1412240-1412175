@@ -24,8 +24,13 @@ Yêu cầu **bắt buộc**
 * [X] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
 
 Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các nội dung đã làm được vào bên dưới và check vào các nội dung đã tìm hiểu được.
-* [ ] Nội dung 1
-* [ ] Nội dung 2
+* [X] Tổng quan về React Native
+* [X] Lập trình với React Native
+    * [X] Cài đặt React Native
+    * [X] Xây dựng chương trình với React Native
+    * [X] Cách build chương trình
+* [X] Đánh giá về React Native
+* [X] Tổng kết
 
 Các **chức năng của demo Note App** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
 * [X] Xây dựng nhiều màn hình
