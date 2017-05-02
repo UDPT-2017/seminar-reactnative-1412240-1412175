@@ -47,7 +47,7 @@ Các nguồn tham khảo để xây dựng ứng dụng:
 
 Link ảnh GIF demo ứng dụng:
 
-![Video Walkthrough](demo.gif)
+![Note App(content.gif)
 
 Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
 
