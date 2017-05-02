@@ -84,6 +84,29 @@ class NewNote extends Component {
             value={this.state.desc}
           />
         </View>
+        <BottomNavigation
+         labelColor="white"
+         rippleColor="white"
+         style={{ height: 56, elevation: 8, position: 'absolute', left: 0, bottom: 0, right: 0 }}
+         onTabChange={this.deleteNote.bind(this)}
+         >
+         <Tab
+           barBackgroundColor="#37474F"
+           label="Delete"
+         />
+         <Tab
+           barBackgroundColor="#00796B"
+           label="Image"
+         />
+         <Tab
+           barBackgroundColor="#5D4037"
+           label="Audio"
+         />
+         <Tab
+           barBackgroundColor="#3E2723"
+           label="HandWritting"
+         />
+       </BottomNavigation>
       </View>
     )
   }
