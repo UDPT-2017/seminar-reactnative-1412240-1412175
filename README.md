@@ -6,7 +6,7 @@ Thành viên:
 * [X] **1412175** Trần Hiệp (tranhiepqna)
 * [X] **1412240** Bùi Đình Khánh (khanhbui1412240)
 
-URL: **Link github page**
+URL: **https://tranhiepqna.github.io/reactnative.github.io/**
 
 ## Yêu cầu
 
