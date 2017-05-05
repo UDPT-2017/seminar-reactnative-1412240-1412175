@@ -79,7 +79,7 @@
      <ol class="deck-child-current">
 			<li class="slide deck-current" id="extension-goto" aria-hidden="true">
 				<h3>Khái niệm trên sách vở</h3>
-				<p>React-Native là một framework cho phép lập trình viên chỉ sử dụng một ngôn ngữ lập trình javascript xây dựng các ứng dụng gốc (trích http://reactnative.vn/lap-trinh-mobile-app-voi-react-native/)</p>
+				<p>React Native là một framework cho phép các lập trình viên xây dựng các ứng dụng Native mà chỉ sử dụng ngôn ngữ lập trình javascript. React Native cho phép bạn xây dựng các ứng dụng trên android và ios chỉ với một ngôn ngữ thống nhất là javascript nhưng mang lại trải nghiệm Native app thực sự.</p>
 			</li>
 			<li class="slide deck-current" id="extension-goto" aria-hidden="true">
 				<h3>Thêm thắc mắc</h3>
@@ -127,57 +127,120 @@
     </section>
 		<section class="slide">
 	 <h2>Cài đặt React Native</h2>
-     <ol class="deck-child-current">
-			<li class="slide deck-current" id="extension-goto" aria-hidden="true">
 				<h3>Yêu cầu bắt buộc phải có</h3>
 				 <ul class="deck-child-current">
 					<li class="slide deck-current" id="extension-goto" aria-hidden="true">
 						<h4>Lập trình Android:</h4>
-						<p>Đối với Linux hay Windows cần phải có Nodejs,  React Native CLI và Android Studio</P>
+						<p>Nếu sử dụng hệ điều hành Linux hay Windows thì đều cần phải có Node.js, React Native CLI và Android Studio.</P>
 					</li>
 					<li class="slide deck-current" id="extension-goto" aria-hidden="true">
 						<h4>Lập trình iOS:</h4>
-						<p>Sử dụng hệ hành MacOS cần phải Nodejs, Watchman, React Native CLI và XCode</P>
+						<p>Cần phải sử dụng hệ điều hành MacOS hoặc cần phải giả lập MacOS bởi vì Apple chỉ chơi với một mình nhà nó không chơi chung với nhà hàng xóm cần phải có Node.js, Watchman, React Native CLI và XCode</P>
 					</li>
 				</ul>
-			</li>
-			<li class="slide deck-current" id="extension-goto" aria-hidden="true">
-				<h3>Cách cài đặt</h3>
-				<p>Cài đặt React Native rất đơn giản</p>
-				<p>Đọc và làm theo hướng dẫn tại <a href="https://facebook.github.io/react-native/docs/getting-started.html">https://facebook.github.io/react-native/docs/getting-started.html</a></p>
-			</li>
-		</ol>
+    </section>
+    <section class="slide">
+	   <h2>Cài đặt React Native</h2>
+     <h3>Hướng dẫn cài đặt</h3>
+        <ul class="deck-child-current">
+         <li class="slide deck-current" id="extension-goto" aria-hidden="true">
+           Trước hết bạn phải cài đặt Node.js nhé
+         </li>
+         <li class="slide deck-current" id="extension-goto" aria-hidden="true">
+           Sau đó cài đặt React Native CLI bằng cách chạy câu lệnh trong Terminal
+           <code>npm install -g react-native-cli</code>
+         </li>
+         <li class="slide deck-current" id="extension-goto" aria-hidden="true">
+           Nếu bạn lập trình Android thì phải cài đặt thêm Android Studio. Nếu bạn lập trình iOS có thể cài thêm XCode nữa nhé
+         </li>
+         <li class="slide deck-current" id="extension-goto" aria-hidden="true">
+           <p>Đọc và làm theo hướng dẫn tại <a href="https://facebook.github.io/react-native/docs/getting-started.html">https://facebook.github.io/react-native/docs/getting-started.html</a></p>
+         </li>
+       </ul>
     </section>
 		<section class="slide">
-	 <h2>Xây dựng và chạy chương trình</h2>
+	 <h2>Xây dựng chương trình với React Native</h2>
      <ul class="deck-child-current">
 			<li class="slide deck-current" id="extension-goto" aria-hidden="true">
-				<h3>Xây dựng</h3>
-				<h4>Ví dụ xây dựng một ứng dụng ExampleApp</h4>
+				<h3>Tạo React Native Project</h3>
+				<h4>Chúng ta sử dụng React Native command line interface (React Native CLI) để tạo một React Native project nhé. Ví dụ ở đây mình tạo một project có tên là HelloWorldApp.</h4>
 				<pre>
-<code style="font-size: 40px">react-native init ExampleApp
-cd ExampleApp
-react-native start
-react-native run-android</code>
+<code style="font-size: 40px">react-native init HelloWorldApp
+cd HelloWorldApp
+</code>
 				</pre>
 			</li>
 		</ul>
     </section>
 		<section class="slide">
-	 <h2>Xây dựng và chạy chương trình</h2>
-     <ul class="deck-child-current">
-			<li class="slide deck-current" id="extension-goto" aria-hidden="true">
-				<h3>Thiết bị chạy chương trình</h3>
-				<ul>
-					<li><h4>Chạy bằng máy ảo</h4>
-					<ul>
-						<li>Sử dụng máy ảo trong Android Studio với ứng dụng Android</li>
-						<li>Sử dụng iOS Simulator từ XCode</li>
-					</ul></li>
-					<li><h4>Chạy bằng máy thật thông qua cổng USB, WIFI</h4></li>
-				</ul>
-			</li>
-		</ul>
+	 <h2>Xây dựng chương trình với React Native</h2>
+    <img src="./images/HelloWorld.png" style="width:600px;height:450px;"/>
+    </section>
+    <section class="slide">
+       <h2>Xây dựng chương trình với React Native</h2>
+      <ul class="deck-child-current" style="margin-left: 0;">
+       <li class="slide deck-current" id="extension-goto" aria-hidden="true">
+         <h4>Chạy Android</h4>
+        <pre>
+  <code style="font-size: 40px">react-native run-android
+  </code>
+  </pre>
+       </li>
+       <li class="slide deck-current" id="extension-goto" aria-hidden="true">
+         <h4>Chạy iOS</h4>
+        <pre>
+  <code style="font-size: 40px">react-native run-ios
+  </code>
+  </pre>
+       </li>
+     </ul>
+    </section>
+    <section class="slide">
+	 <h2>Xây dựng chương trình với React Native</h2>
+   <h4>Chạy chương trình thành công</h4>
+    <img src="./images/AndroidSuccess.png" style="width:500px;height:800px;"/>
+    </section>
+    <section class="slide">
+      <h2>Cơ bản về React Native</h2>
+      <ul>
+        <li><h3>Thực chất React Native cơ bản giống như Reactjs</h3></li>
+        <li><h3>Muốn học React Native cần nên học trước về Reactjs</h3></li>
+        <li><h3>Vẫn có những nét đặc trưng riêng</h3></li>
+      </ul>
+    </section>
+    <section class="slide">
+      <h2>Những điểm giống với Reactjs</h2>
+      <ul class="deck-child-current">
+        <li class="slide deck-current" id="extension-goto" aria-hidden="true"><h3>Component</h3></li>
+        <li class="slide deck-current" id="extension-goto" aria-hidden="true"><h3>Props</h3></li>
+        <li class="slide deck-current" id="extension-goto" aria-hidden="true"><h3>Sate</h3></li>
+      </ul>
+    </section>
+    <section class="slide">
+      <h2>Những nét đặc trưng riêng</h2>
+      <h3>Style</h3>
+      <h4>CSS</h4>
+     <pre>
+<code style="font-size: 40px">hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+</code>
+</pre>
+<h4>React Native</h4>
+<pre>
+<code style="font-size: 40px">const styles = StyleSheet.create({
+  hr : {
+    marginTop: 20;
+    marginBottom: 20;
+    border: 0;
+    borderTop: 1 solid #eee;
+  },
+});
+</code>
+</pre>
     </section>
     <section class="slide">
       <h1>Here</h1>
