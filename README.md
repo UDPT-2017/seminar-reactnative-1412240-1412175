@@ -6,7 +6,7 @@ Thành viên:
 * [X] **1412175** Trần Hiệp (tranhiepqna)
 * [X] **1412240** Bùi Đình Khánh (khanhbui1412240)
 
-URL: **https://tranhiepqna.github.io/reactnative.github.io/**
+URL: **Link github page**
 
 ## Yêu cầu
 
@@ -24,19 +24,23 @@ Yêu cầu **bắt buộc**
 * [X] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
 
 Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các nội dung đã làm được vào bên dưới và check vào các nội dung đã tìm hiểu được.
-* [X] Tổng quan về React Native
-* [X] Lập trình với React Native
-    * [X] Cài đặt React Native
-    * [X] Xây dựng chương trình với React Native
-    * [X] Cách build chương trình
-* [X] Đánh giá về React Native
-* [X] Tổng kết
+* [X] Giới thiệu Cross Platform
+* [X] Giới thiệu về React Native và Lịch sử ra đời 
+* [X] Hướng dẫn cài đặt chung
+* [X] Mọi số khái niệm cơ bản
+	* [X] Component
+	* [X] Style
+	* [X] Navigation
+	* [X] Listview
+* [X] Redux
+* [X] Firebase
 
 Các **chức năng của demo Note App** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
+* [X] Đăng nhập bằng firebase
 * [X] Xây dựng nhiều màn hình
 * [X] Tương tác giữa các màn hình thông qua Navigation
 * [X] Sử dụng List View để hiển thị danh sách notes
-* [X] Sử dụng Redux và React-React để xây dựng ứng dụng
+* [X] Sử dụng Firebase và React-React để xây dựng ứng dụng
 
 Các nguồn tham khảo để xây dựng ứng dụng:
 * Note App : https://github.com/shoumma/Asprov-Notes
@@ -47,7 +51,7 @@ Các nguồn tham khảo để xây dựng ứng dụng:
 
 Link ảnh GIF demo ứng dụng:
 
-![Note App](content.gif)
+<img src='http://i.imgur.com/cXdlc7j.gif' title='Note React native' width='' alt='Note react native' />
 
 Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
 
